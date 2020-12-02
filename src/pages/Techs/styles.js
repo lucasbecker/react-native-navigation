@@ -37,11 +37,12 @@ export const List = styled.FlatList.attrs({
   flex: 1,
   showVerticalScrollIndicator: false,
 })`
-  margin-top: 20px;
+  margin-top: 0px;
 `;
 
 export const Tech = styled.View`
   flex-direction: row;
+  padding-top: 20px;
   padding-bottom: 20px;
   border-bottom-width: 1px;
   border-color: #ffc10750;
@@ -65,7 +66,7 @@ export const ProfileButton = styled(RectButton)`
   align-items: center;
   background: ${(props) => props.background};
   border-radius: 4px;
-  margin-left: 20px;
+  margin-left: 10px;
   padding: 0 12px;
   opacity: 1;
 `;
